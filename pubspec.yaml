@@ -1,0 +1,45 @@
+name: kora_mobile
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  dio: ^5.11.0
+  flutter_riverpod: ^3.3.2
+  go_router: ^17.0.0
+  flutter_secure_storage: ^9.2.4
+  intl: ^0.20.2
+  google_fonts: ^6.3.2
+  flutter_svg: ^2.2.3
+  fl_chart: ^1.1.0
+  flutter_animate: ^4.5.2
+  cached_network_image: ^3.4.1
+  json_annotation: ^4.9.0
+  freezed_annotation: ^3.1.0
+  equatable: ^2.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+  build_runner: ^2.9.0
+  freezed: ^3.0.0-0.0.dev
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/kora_logo.png
+    - assets/images/splash_gym.jpg
+    - assets/images/welcome_athlete.png
+    - assets/images/onboarding/
